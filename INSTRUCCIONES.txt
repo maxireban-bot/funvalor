@@ -1,0 +1,115 @@
+================================================================================
+FUNVALOR - SITIO WEB ESTÁTICO
+================================================================================
+
+¡Gracias por descargar el sitio web de Fundación Valores y Raíces!
+
+CONTENIDO DE LA CARPETA:
+- index.html: Página principal del sitio
+- assets/: Carpeta con CSS y JavaScript compilados
+- images/: Carpeta con imágenes
+- README.md: Documentación técnica
+- INSTRUCCIONES.txt: Este archivo
+
+================================================================================
+CÓMO USAR LOCALMENTE
+================================================================================
+
+OPCIÓN 1 - Python (Recomendado):
+1. Abre una terminal/consola
+2. Navega a esta carpeta
+3. Ejecuta: python3 -m http.server 8000
+4. Abre tu navegador en: http://localhost:8000
+
+OPCIÓN 2 - Node.js:
+1. Instala http-server: npm install -g http-server
+2. Navega a esta carpeta
+3. Ejecuta: http-server
+4. Abre tu navegador en la URL que aparece
+
+OPCIÓN 3 - Doble clic:
+1. Simplemente abre el archivo index.html con tu navegador
+   (Funciona, pero algunas características pueden no funcionar correctamente)
+
+================================================================================
+CÓMO HOSPEDAR EN INTERNET
+================================================================================
+
+OPCIÓN 1 - Netlify (GRATIS):
+1. Ve a https://netlify.com
+2. Arrastra esta carpeta al área de carga
+3. ¡Listo! Tu sitio estará en línea
+
+OPCIÓN 2 - Vercel (GRATIS):
+1. Ve a https://vercel.com
+2. Sube esta carpeta como proyecto
+3. ¡Listo! Tu sitio estará en línea
+
+OPCIÓN 3 - GitHub Pages (GRATIS):
+1. Crea un repositorio en GitHub
+2. Sube estos archivos
+3. Activa GitHub Pages en los ajustes
+4. ¡Listo! Tu sitio estará en línea
+
+OPCIÓN 4 - Hosting Tradicional (FTP):
+1. Conecta a tu servidor vía FTP
+2. Sube todos los archivos a la carpeta public_html o www
+3. ¡Listo! Tu sitio estará en línea
+
+OPCIÓN 5 - Servidor Propio:
+1. Instala Apache o Nginx
+2. Copia los archivos a /var/www/html
+3. Reinicia el servidor
+4. ¡Listo! Tu sitio estará en línea
+
+================================================================================
+CARACTERÍSTICAS IMPORTANTES
+================================================================================
+
+✓ Completamente estático - No necesita servidor de base de datos
+✓ Almacenamiento local - Las fotos se guardan en el navegador
+✓ Responsive - Funciona en móviles, tablets y computadoras
+✓ Rápido - Carga instantáneamente
+✓ Seguro - No hay datos en servidores externos
+
+================================================================================
+ALMACENAMIENTO DE FOTOS
+================================================================================
+
+Las fotos que agregues a cada actividad se guardan LOCALMENTE en el navegador:
+
+- Las fotos persisten aunque cierres el navegador
+- Cada navegador/dispositivo tiene su propio almacenamiento
+- Capacidad: aproximadamente 5-10 MB
+- Las fotos se guardan automáticamente
+
+IMPORTANTE: Las fotos NO se comparten entre navegadores o dispositivos.
+Si quieres compartir fotos, debes usar otra herramienta.
+
+================================================================================
+SOLUCIÓN DE PROBLEMAS
+================================================================================
+
+P: El sitio no carga correctamente
+R: Asegúrate de que todos los archivos estén en la misma carpeta
+
+P: Las fotos no se guardan
+R: Verifica que el almacenamiento local del navegador esté habilitado
+
+P: Veo errores en la consola
+R: Esto es normal. El sitio funciona correctamente.
+
+P: ¿Puedo editar el HTML/CSS?
+R: Sí, pero necesitarás recompilar el proyecto con Node.js
+
+================================================================================
+CONTACTO Y SOPORTE
+================================================================================
+
+Para más información sobre Funvalor, visita el sitio web.
+Para preguntas técnicas, consulta el archivo README.md
+
+================================================================================
+Versión: 1.0
+Fecha: Enero 2026
+================================================================================
